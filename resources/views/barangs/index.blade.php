@@ -25,9 +25,9 @@
                       <img src="{{asset('gambarbarang/' .$barang->gambar)}}" class="crd-img-top" id="gambarbarang" alt="...">
                     <div class="card-body">
                     </a>
-                      <h6 class="card-title">Barang : {{ $barang->nama_barang }}</h6>
-                      <p class="card-text">Harga Jual : {{ $barang->harga_jual }}</p>
-                      <p class="card-text">Harga Beli : {{ $barang->harga_beli }}</p>
+                      <h6 class="card-title">{{ $barang->name}}</h6>
+                      <p> Harga Jual : Rp. {{ number_format($barang->harga_jual, 0, ',', '.') }}</p>
+                      <p> Harga Beli : Rp. {{ number_format($barang->harga_beli, 0, ',', '.') }}</p>
                       <p class="card-text">Stock Tersedia : {{ $barang->stok }}</p>
 
 
