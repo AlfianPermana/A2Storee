@@ -9,7 +9,7 @@
         <h2 class="mb-1 fw-bold">Info Barang</h2>
         <p class="mb-4">Berikut adalah daftar barang yang tersedia.</p>
 
-        <a href="{{ route('pesanans.export') }}" class="mb-4 btn btn-success">Checkout</a>
+        <a href="{{ route('pesanans.export') }}" class="mb-4 btn btn-success">Export</a>
 
         <table class="table table-responsive">
             <thead>
